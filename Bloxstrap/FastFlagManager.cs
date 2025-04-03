@@ -38,7 +38,6 @@ namespace Bloxstrap
             { "Rendering.Lighting.ShadowMap", "FFlagDebugForceFutureIsBrightPhase2" },
             { "Rendering.Lighting.Future", "FFlagDebugForceFutureIsBrightPhase3" },
 
-            // Texture quality
             { "Rendering.TextureQuality.OverrideEnabled", "DFFlagTextureQualityOverrideEnabled" },
             { "Rendering.TextureQuality.Level", "DFIntTextureQualityOverride" },
             { "Rendering.TerrainTextureQuality", "FIntTerrainArraySliceSize" },
@@ -76,11 +75,6 @@ namespace Bloxstrap
             { "Menu.Haptics", "FFlagAddHapticsToggle" },
             { "Menu.Framerate", "FFlagGameBasicSettingsFramerateCap5"},
             { "Menu.ChatTranslation", "FFlagChatTranslationSettingEnabled3" }
-            //{ "UI.Menu.Style.V2Rollout", "FIntNewInGameMenuPercentRollout3" },
-            //{ "UI.Menu.Style.EnableV4.1", "FFlagEnableInGameMenuControls" },
-            //{ "UI.Menu.Style.EnableV4.2", "FFlagEnableInGameMenuModernization" },
-            //{ "UI.Menu.Style.EnableV4Chrome", "FFlagEnableInGameMenuChrome" },
-            //{ "UI.Menu.Style.ReportButtonCutOff", "FFlagFixReportButtonCutOff" },
 
 
             //{ "UI.Menu.Style.ABTest.1", "FFlagEnableMenuControlsABTest" },
@@ -88,6 +82,7 @@ namespace Bloxstrap
             //{ "UI.Menu.Style.ABTest.3", "FFlagEnableInGameMenuChromeABTest3" },
             //{ "UI.Menu.Style.ABTest.4", "FFlagEnableInGameMenuChromeABTest4" }
         };
+
 
         public static IReadOnlyDictionary<RenderingMode, string> RenderingModes => new Dictionary<RenderingMode, string>
         {
